@@ -144,7 +144,7 @@ export function SetupScreen({
           </button>
         }
       />
-      <main className="px-4 pb-12">
+      <main className="kb-pad px-4">
         <section>
           <h2 className="px-1 font-display text-lg">이름</h2>
           <p className="px-1 text-sm text-muted">사다리 위에 설 사람이에요</p>
@@ -576,7 +576,7 @@ export function PresetEditor({
   return (
     <Screen>
       <TopBar title={`${slot + 1}번 칸`} onBack={onBack} />
-      <main className="px-4 pb-12">
+      <main className="kb-pad px-4">
         <label className="text-sm text-muted" htmlFor="edit-team">
           팀 이름
         </label>
@@ -680,7 +680,7 @@ export function ContactScreen({
   return (
     <Screen>
       <TopBar title="문의하기" onBack={onBack} />
-      <main className="px-4 pb-12">
+      <main className="kb-pad px-4">
         <div className="mt-2 flex items-center gap-3">
           <span className="grid size-12 place-items-center rounded-full bg-primary text-on-primary">
             <Mail className="size-5" />

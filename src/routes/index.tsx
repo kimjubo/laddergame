@@ -11,7 +11,7 @@ import {
   ResultScreen,
   SetupScreen,
 } from "@/components/screens";
-import { Screen } from "@/components/chrome";
+import { Screen, KeyboardSpacer } from "@/components/chrome";
 import { cleanRoster, emptyRoster, resizeRoster, type Roster } from "@/lib/roster";
 import { useSadari, writeSadari, type HistoryEntry, type Preset } from "@/lib/storage";
 
@@ -150,6 +150,7 @@ function Home() {
   return (
     <>
       {shell}
+      <KeyboardSpacer />
       {toast ? (
         <div className="toast" role="status">
           {toast}
