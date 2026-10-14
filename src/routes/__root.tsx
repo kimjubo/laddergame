@@ -13,7 +13,7 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       {
         name: "description",
-        content: "동글동글 캐릭터와 함께하는 사다리타기. 이름과 상·벌을 정하고 운명을 확인하세요.",
+        content: "그록봇 아이콘과 함께하는 사다리타기. 이름과 상·벌을 정하고 운명을 확인하세요.",
       },
       { name: "theme-color", content: "#FFF4E8" },
     ],

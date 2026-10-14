@@ -35,7 +35,7 @@ export function MenuScreen({
             <Blob index={3} size={78} className="blob-bob -ml-3" />
           </div>
           <h1 className="font-display text-5xl tracking-tight">사다리타기</h1>
-          <p className="mt-2 text-center text-muted">동글동글 캐릭터가 대신 걸어줄게요</p>
+          <p className="mt-2 text-center text-muted">그록봇이 대신 걸어줄게요</p>
           <div className="mt-8 flex w-full flex-col gap-3">
             <button type="button" className="btn btn-block btn-primary" onClick={onPlay}>
               <Dices className="size-5" />
