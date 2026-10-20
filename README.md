@@ -15,3 +15,9 @@ npm run dev
 ```
 
 브라우저에서 표시된 주소로 열면 됩니다.
+
+## 공개 배포
+
+[사다리타기 플레이](https://kimjubo.github.io/jubo-tools/games/ladder/)
+
+GitHub Pages용 정적 빌드: `npm run build:pages`. 결과는 `dist-pages/`에 생성된다. 기존 서버용 설정은 유지한다. 세팅과 기록은 같은 브라우저에 저장된다.
