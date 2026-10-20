@@ -28,7 +28,7 @@ type View =
   | { id: "preset"; slot: number }
   | { id: "contact" };
 
-function Home() {
+export function Home() {
   const data = useSadari();
   const [view, setView] = useState<View>({ id: "menu" });
   const [roster, setRoster] = useState<Roster>(emptyRoster(4));
